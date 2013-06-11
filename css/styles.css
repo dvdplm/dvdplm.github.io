@@ -33,7 +33,17 @@ footer, header, hgroup, menu, nav, section {display: block}
 /***************************************************
             Global styles
 ***************************************************/
+iframe{
+  margin: 10px;
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid #aaa;
+}
 
+small{
+  margin: 10px;
+  margin-top: 20px;
+}
 html {
   width: 100%;
   height: 100%;
@@ -69,9 +79,11 @@ a: hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: normal;
-  position: relative;
+  font-family:  Helvetica, sans-serif;
+  font-weight:  normal;
+  position:     relative;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h1 {
@@ -129,14 +141,9 @@ h4 {
 
 #container {
   position: relative;
-  width: 980px;
   margin: 0 auto;
   background-color: transparent;
   min-height: 100%;
-}
-
-.holder_content p{
-  height: 160px;
 }
 
 .group1 {
@@ -155,11 +162,11 @@ h4 {
   background: transparent;
   padding: 15px;
   margin-bottom: 10px;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 .group3 {
-  float: right;
+  float: left;
   width: 274px;
   position: relative;
   background: transparent;
@@ -219,6 +226,29 @@ header {
 
 .holder_content_separator{
   margin-bottom: 20px;
+}
+
+p{
+  margin-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+.holder_content p.mirror{
+  height: 160px;
+  margin-top: 0;
+  padding: 0;
+}
+.holder_content h3.mirror_title{
+  margin-top: 0;
+  padding: 0;
+}
+
+h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /***************************************************
@@ -293,8 +323,7 @@ footer {
 }
 
 .container {
-   width: 980px;
-   margin: 0 auto;
+  margin: 0 auto;
   background-color: #33CC99;
 }
 
