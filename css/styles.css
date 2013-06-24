@@ -1,4 +1,4 @@
-/***************************************************
+ /***************************************************
         minimalist by marija zaric
         template distributed by
         http: //freehtml5templates.com
@@ -346,6 +346,24 @@ nav ul li {
   margin-left: 16px;
   line-height: normal;
 }
+
+.agriturismi{
+  margin-left: 50px;
+}
+
+.agriturismi li{
+  padding: 2px;
+
+}
+
+.agriturismi a{
+  color: #555;
+  text-decoration: none;
+}
+.agriturismi a:hover{
+  color: #CC3333;
+}
+
 
 nav ul li a {
   font-size: 20px;
